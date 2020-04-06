@@ -14,7 +14,7 @@ public class HelloController {
     @RequestMapping("/")
     public String sayHello(){
         String name="wqz:today,";
-        int age=18;
+        int age=20;
         return name+"jenkins,hello!,今年是"+age+"岁";
     }
 }
